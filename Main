@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main(void)
+{
+	
+//we can use variables(changeable) and constants(nonchangeable)
+
+	int x;
+	x=5;
+	printf("%d",x);
+	printf("variable x' memory size is %d",sizeof(x));
+	return 0;
+	
+}
