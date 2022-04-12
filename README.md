@@ -18,3 +18,5 @@ How we turn binary to hex.
 10110011(2) : the first 4 digit would be 11, and the next  4 digit would be 3 so in decimal numerical system it is 14.
 Since 10 = a,11=b,12=c,13=d,14=e,15=f
 10110011(2) = b3(16)
+
+So in hex, one digit takes 4 bits. = 0.5byte
