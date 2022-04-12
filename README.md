@@ -15,7 +15,7 @@ So to write 10010110(2), we need 8 Bits of memory to write this.
 
 we also use hexidecimal numerical system , shortened to 'hex'.
 How we turn binary to hex.
-10110011(2) : the first 4 digit would be 11, and the next  4 digit would be 3 so in decimal numerical system it is 14.
+10110011(2) : the first 4 digit(1011) would be 11, and the next  4 digit(0011) would be 3 so in decimal numerical system it is 14.
 Since 10 = a,11=b,12=c,13=d,14=e,15=f
 10110011(2) = b3(16)
 
