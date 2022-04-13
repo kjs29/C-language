@@ -20,3 +20,32 @@ Since 10 = a, 11=b, 12=c, 13=d, 14=e, 15=f. Because it would look so confusing t
 10110011(2) = b3(16)
 
 So in hex, one digit takes 4 bits. = 0.5byte
+
+Functions are important in C language. We start by functions, and finish by functions.
+
+C language is a Complier language. Complier is a translator. 
+In order to 'execute' our source code in C, the computer 'Compile' the sourcecode to assembly language, and then it executes.
+Every time we change our programs, we must change our source codes to execute.
+
+However Java is an interpreter language. It can  write on different operating system(JVM).
+
+Let's look at the following example.
+-------------------------------------------
+
+#include <stdio.h>
+
+void main(int argc, char* argv[])
+{
+    printf("helloWorld\n");
+}
+
+--------------------------------------------
+
+#include <stdio.h>
+
+void main(void)
+{
+    printf("helloWorld\n");
+}
+
+--------------------------------------------
