@@ -24,7 +24,7 @@ So in hex, one digit takes 4 bits. = 0.5byte
 Functions are important in C language. We start by functions, and finish by functions.
 
 C language is a Complier language. Complier is a translator. 
-In order to 'execute' our source code in C, the computer 'Compile' the sourcecode to assembly language, and then it executes.
+In order to 'execute' our source code in C, the computer 'Compile' the sourcecode to assembly language first, and then it executes.
 Every time we change our programs, we must change our source codes to execute.
 
 However Java is an interpreter language. It can  write on different operating system(JVM).
@@ -49,3 +49,22 @@ void main(void)
 }
 
 --------------------------------------------
+#include : preprocessor 
+Include 'something'.
+the first void is called 반환자료형
+main is a name of function
+the second void is called 매개변수
+
+So in our daily life the function is defined like this,
+f(x) = y
+f is the name of the function = 'main'
+x is the second void
+y is the first void
+
+What comes inside of the curly braces {} is called 'scope'.
+
+\n is enter key.
+printf() is also a function.
+main() is a function.
+
+What comes inside of "" is called 문자열상수
