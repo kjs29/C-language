@@ -13,7 +13,7 @@ So to write 10010110(2), we need 8 Bits of memory to write this.
 8 Bits = 1 byte. This is equivalent to a memory room for one letter in English. 
 
 
-we also use hexidecimal numerical system , shortened to 'hex'.
+We use hexidecimal numerical system , shortened to 'hex'.
 How we turn binary to hex.
 10110011(2) : the first 4 digit(1011) would be 11, and the next  4 digit(0011) would be 3 so in decimal numerical system it is 14 AND hexidecimal numerical system it'd be B3.
 Since 10 = a, 11=b, 12=c, 13=d, 14=e, 15=f. Because it would look so confusing to write 113(16). We don't know whether it is '11 and 3' or '1,1,3' or '1 and 13'.
