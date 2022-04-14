@@ -55,6 +55,9 @@ the first void is called 반환자료형
 main is a name of function
 the second void is called 매개변수
 
+<stdio.h>
+if it ends with ~.h it means it's declaration.
+
 So in our daily life the function is defined like this,
 f(x) = y
 f is the name of the function = 'main'
