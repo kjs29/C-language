@@ -80,32 +80,7 @@ main (void) // this shows that there is nothing here.
 
 # return 0;
 return 0; there isn't any particular reason.
-If we wrote our code like this
 
----------------------------------
-#include <stdio.h>
-
-int main(void) //there is an int function
-{
-    printf("helloWorld\n");
-}
-
-------------------------------
-
-instead of
-
----------------------------------
-
-#include <stdio.h>
-
-void main(void)
-{
-    printf("helloWorld\n");
-}
-
-----------------------------------
-
-We have to put return 0; at the end of the first example code.
 
 In our daily life the function is defined like this,
 f(x) = y
