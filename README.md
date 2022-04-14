@@ -70,8 +70,44 @@ printf() is a callee
 Compiler translates sourcecode into object file. (ex. Helloworld.obj)
 Object file is like tools (부품)
 And Linker translates object file into execution file. ( ex.Helloworld.exe)
+execution is a binary file.
+Compiling + Linking = Building
 
-So in our daily life the function is defined like this,
+# void
+void means 'There is nothing'
+main () //we don't know whether this is omitted or there is something
+main (void) // this shows that there is nothing here.
+
+# return 0;
+return 0; there isn't any particular reason.
+If we wrote our code like this
+
+---------------------------------
+#include <stdio.h>
+
+int main(void) //there is an int function
+{
+    printf("helloWorld\n");
+}
+
+------------------------------
+
+instead of
+
+---------------------------------
+
+#include <stdio.h>
+
+void main(void)
+{
+    printf("helloWorld\n");
+}
+
+----------------------------------
+
+We have to put return 0; at the end of the first example code.
+
+In our daily life the function is defined like this,
 f(x) = y
 f is the name of the function = 'main'
 x is the second void
