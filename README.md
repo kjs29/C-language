@@ -58,6 +58,7 @@ main is a name of function
 the second void is called 매개변수
 
 # <stdio.h>
+It means Standard Input Output
 if it ends with ~.h it means it's declaration.
 if it ends with ~.c it means it's definition.
 
