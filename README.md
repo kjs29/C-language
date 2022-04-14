@@ -49,14 +49,27 @@ void main(void)
 }
 
 --------------------------------------------
-#include : preprocessor 
+#include : preprocessor (전처리기)
+
+Before compiling = pre -
 Include 'something'.
 the first void is called 반환자료형
 main is a name of function
 the second void is called 매개변수
 
-<stdio.h>
+# <stdio.h>
 if it ends with ~.h it means it's declaration.
+if it ends with ~.c it means it's definition.
+
+# main() and printf()
+main()
+main() is a caller
+printf() is a callee
+
+# Compiler and Linker
+Compiler translates sourcecode into object file. (ex. Helloworld.obj)
+Object file is like tools (부품)
+And Linker translates object file into execution file. ( ex.Helloworld.exe)
 
 So in our daily life the function is defined like this,
 f(x) = y
