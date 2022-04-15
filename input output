@@ -36,13 +36,30 @@ int main () {
 }
 
 ---
-//string
+//string as input
+//scanf
 #include <stdio.h>
 
 int main () {
 	char address[20]; //we have to say how many characters users are going to put in as input
 	printf("Enter your address: ");
 	scanf("%s", address);
+	printf("Your address is %s", address);
+	return 0;
+}
+
+//but there is a problem in scanf
+//when users put input as like "South Korea" with space in between, it will only take "South"
+
+---
+//string as input
+//fgets
+#include <stdio.h>
+
+int main () {
+	char address[20];
+	printf("Enter your address: ");
+	fgets(address, 20, stdin);
 	printf("Your address is %s", address);
 	return 0;
 }
