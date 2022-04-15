@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+    int a,b;
+    a= 10;
+    b = 3;
+    printf("a+b = %d\n",a+b);
+    printf("a*b = %d\n",a*b);
+    printf("a-b = %d\n",a-b);
+    printf("a/b = %d\n", a/b);
+    printf("a%%b = %d", a%b);
+}
+
+result : 
+a+b = 13
+a*b = 30
+a-b = 7
+a/b = 3 //since both a and b are integers, and the result will be 3, not 3.3333333...
+a%b =  // % operator can only work with integers.
+
+
