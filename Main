@@ -1,1 +1,10 @@
 https://www.freecodecamp.org/news/what-is-the-c-programming-language-beginner-tutorial/
+
+* format specifiers
+%d - int (same as %i)
+%ld - long int (same as %li)
+%f - float
+%lf , %g - double[1]
+%c - char
+%s - string
+%x - hexadecimal
