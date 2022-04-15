@@ -1,3 +1,6 @@
+float has 6 decimal places, and takes up 4 bytes
+double has 15 decimal places, and takes up 8 bytes.
+
 #include <stdio.h>
 
 int main () {
