@@ -18,4 +18,12 @@ a-b = 7
 a/b = 3 //since both a and b are integers, and the result will be 3, not 3.3333333...
 a%b =  // % operator can only work with integers.
 
+----
+#include <stdio.h>
 
+int main() {
+    float a = 1.5f;
+    int b = 3;
+    printf("the answer is %d", a*b); // this will result the answer as float instead of integer.
+    return 0;
+}
