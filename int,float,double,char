@@ -1,0 +1,75 @@
+#include <stdio.h>
+
+int main () {
+  int a;
+  a = 22222;
+  printf("Value a is \n %d", a);
+  return 0;
+}
+
+result :
+Value a is
+22222
+//%d brings the integer
+
+---
+#include <stdio.h>
+
+int main () {
+    int a;
+    a = 1000;
+    printf("a를 %d진수로 나타내면 %o\n",8,a);
+    printf("a를 %d진수로 나타내면 %x",16,a);
+}
+
+result : 
+a를 8진수로 나타내면 1750
+a를 16진수로 나타내면 3e8
+//%o shows the number a in octal number system.
+//%x shows the number a in hexadecimal number system.
+
+---
+#include <stdio.h>
+
+int main(){
+    int a;
+    a =1000.22;
+    printf("a is %d",a);
+    return 0;
+}
+
+result : 
+a is 1000
+
+//int can't show decimal places.
+
+---
+#include <stdio.h>
+
+int main() {
+    float a;
+    double b;
+    a = 155.215f;
+    b = 155.211;
+    printf("a is %2.3f\n",a);
+    printf("b is %3.3f",b);
+    return 0;
+}
+
+result :
+a is 155.215
+b is 155.211
+//even if it says %2.3f it still shows 3digit since a was assigned 155(3digits)
+//%3.3f means 3
+
+---
+#include <stdio.h>
+
+int main() {
+    char studentGradeLetter;
+    studentGradeLetter = 'A';
+    printf("Student's Grade: %c\n", studentGradeLetter);
+}
+
+result :
+Student's Grade: A
