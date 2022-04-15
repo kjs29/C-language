@@ -27,3 +27,20 @@ int main() {
     printf("the answer is %d", a*b); // this will result the answer as float instead of integer.
     return 0;
 }
+
+result : 
+4.500000
+---
+//complex math functions <google 'C math functions'>
+#include <stdio.h>
+
+int main() {
+    printf("%f",pow(2,3)); //if we wrote %d, it wouldn't work
+    return 0;
+}
+
+result : 
+8.000000
+
+---
+sqrt(),ceiling(),floor() //
