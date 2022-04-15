@@ -1,0 +1,48 @@
+#include <stdio.h>
+
+int main () {
+	int age;
+	printf("Enter your age: ");
+	scanf("%d",&age); //& is a pointer
+	printf("Your age is %d",age);
+	return 0;
+}
+
+result : 
+Enter your age: 
+//when I enter my age, it will show 
+Your age is 29
+
+---
+#include <stdio.h>
+
+int main () {
+	double gpa;
+	printf("Enter your gpa: ");
+	scanf("%Lf",&gpa);
+	printf("Your age is %Lf",gpa);
+	return 0;
+}
+
+---
+#include <stdio.h>
+
+int main () {
+	char gpa;
+	printf("Enter your gpa: ");
+	scanf("%c",&gpa);
+	printf("Your age is %c",gpa);
+	return 0;
+}
+
+---
+//string
+#include <stdio.h>
+
+int main () {
+	char address[20]; //we have to say how many characters users are going to put in as input
+	printf("Enter your address: ");
+	scanf("%s", address);
+	printf("Your address is %s", address);
+	return 0;
+}
