@@ -8,3 +8,21 @@ int main (){
 	printf("Answer: %d", num1 + num2);
 	return 0;
 }
+
+
+//but this won't take decimals since num1 and num2 are ints.
+
+---
+
+#include<stdio.h>
+int main (){
+	double num1, num2;
+	printf("Enter the first number : ");
+	scanf("%Lf", &num1);
+	printf("Enter the second number : ");
+	scanf("%Lf", &num2);
+	printf("Answer: %Lf", num1 + num2);
+	return 0;
+}
+
+//this will do because they are double(floats).
