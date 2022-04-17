@@ -4,12 +4,15 @@
 int main () {
 	int first;
 	int second;
-	printf("What is bigger? enter two numbers.\n Enter the first, and enter the second\n");
+	printf("What is bigger? enter two numbers.\n(Enter the first, and enter the second)\n");
 	scanf("%d%d",&first,&second);
 	if (first > second) {
 		printf("%d is bigger",first);
-	} else {
+	} else if (first < second) {
 		printf("%d is bigger",second);
+	} else {
+		printf("They are the same");
 	}
+	
 	return 0;
 }
