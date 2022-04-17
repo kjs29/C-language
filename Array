@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main () {
+	int luckyNumbers[] = {4,7,14,23,42};
+  luckyNumbers[1] = 200;
+	printf("%d",luckyNumbers[1]);
+	return 0;
+}
+
+----
+#include <stdio.h>
+#include <stdlib.h>
+
+int main () {
+	int luckyNumbers[10];
+  luckyNumbers[1] = 200;
+	printf("%d",luckyNumbers[1]);
+	return 0;
+}
+
+//if we don't know what elements are in luckyNumbers we can assign like this. But we need to tell it the size of the array. In this case, it is 10, so 10 numbers can go int there.
