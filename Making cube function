@@ -1,12 +1,11 @@
+
+---
+//or we can cube it right away
 #include <stdio.h>
-#include <stdlib.h>
-
-double cube(double num) {
-	double result = num * num * num;
-	return result; 
-}
-
 int main () {
-	printf("answer: %f",cube(7.0));
+	int cubed;//notice that we don't have []anymore since this is just integer.
+	printf("Enter your number and we will cube it : ");
+	scanf("%d",&cubed);
+	printf("You put %d and the answer is %d",cubed,cubed * cubed * cubed);
 	return 0;
 }
