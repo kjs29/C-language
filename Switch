@@ -2,25 +2,31 @@
 #include <stdlib.h>
 
 int main () {
-	char grade = 'B';
+	char grade;
+	
+	printf("Hello, type your grade : ");
+	scanf(" %c",&grade);
+	
 	switch (grade) {
 		case 'A' :
-			printf("You did great!");
+			printf("A amazing");
 			break;
 		case 'B' :
-			printf("You did nicely");
+			printf("B is Bravo");
 			break;
 		case 'C' :
-			printf("Keep working!");
+			printf("C is charming!");
 			break;
 		case 'D' :
-			printf("You can do it!");
+			printf("D is Do it more!");
 			break;
 		case 'F' :
-			printf("You failed! But it is okay");
+			printf("F is fail but it is okay, keep it up!");
 			break;
 		default :
-			printf("INVALID GRADE");
+			printf("Invalid grade leter, which has to be uppercase.");
+			break;
+		
 	}
 	return 0;
 }
