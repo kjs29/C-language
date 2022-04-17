@@ -1,4 +1,21 @@
+//i don't know how to make another function and make this show the result using another function called 'cubed' 4/16/22
+#include <stdio.h>
+#include <stdlib.h>
 
+double cubed(double num) {
+	double parameter = num * num * num;
+	return parameter;
+	
+}
+
+int main() {
+	
+	printf("Insert your number and I will cube it : ");
+	scanf("%Lf",&cubed);
+	printf("you put %Lf",cubed);
+	printf("%Lf",cubed);
+	return 0;
+}
 ---
 //or we can cube it right away
 #include <stdio.h>
