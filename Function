@@ -1,0 +1,41 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main () {
+	sayHi(); //This line, it is calling 'sayHi' function.
+	return 0;
+}
+
+void sayHi() {
+	printf("hello user");
+}
+
+---
+#include <stdio.h>
+#include <stdlib.h>
+
+int main () {
+	sayHi("Mike");
+	return 0;
+}
+
+void sayHi(char name[]) {
+	printf("hello user named, %s",name);
+}
+
+//including the function called 'sayHi' in main
+//now we can see it
+
+---
+#include <stdio.h>
+#include <stdlib.h>
+
+int main () {
+	sayHi("Mike", 15);
+	return 0;
+}
+
+void sayHi(char name[], int age) {
+	printf("hello user named, %s and you are %d ",name,age);
+}
+//this will print out both parameters name[], and age
