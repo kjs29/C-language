@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+struct Personal { //the uppercase for the name of the struct
+	char name[50];
+	char major[50];
+	char school[50];
+	int age;
+	double gpa;
+};
+
+int main () {
+	struct Personal person1;
+	person1.age = 29; //assigning value
+	person1.gpa = 3.2;
+	strcpy( person1.school, "Books"); //space after the parenthesis
+	strcpy( person1.major, "Computer Science"); //space after the parenthesis
+	strcpy( person1.name, "John"); //space after the parenthesis
+	printf("%s", person1.school);
+	
+	return 0;
+}
