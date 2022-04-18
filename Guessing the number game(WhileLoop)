@@ -52,26 +52,23 @@ int main() {
 ---
 //I tried to make my own game.
 #include <stdio.h>
-#incldue <stdlib.h>
+#include <stdlib.h>
 
 int main () {
 	int age;
 	int guess = 5;
 	int guessCount = 0;
 	
-	while (age!=guess&&guessCount<4) {
-		printf("Enter your number : ");
+	while (guess!=age && guessCount<4) {
+		printf("Enter your number: ");
 		scanf("%d",&age);
-		guessCount++;
-		printf("Wrong guess.\nGuessCount = %d\n",guessCount);
-		if (guessCount==3) {
-			printf("Next is final Guess.\n");
-		}
+		guessCount = guessCount + 1;
+		printf("# of guess(es) left : %d\n",4-guessCount);
 	}
-	if (guessCount>=4) {
-		printf("You lost");
-	} else {
+	if (guess == age && guessCount <5) {
 		printf("You win!");
+	} else if (guess !=age || guessCount>=5) {
+		printf("You lost.\n", 4 - guessCount);
 	}
-	return 0 ;
+	return 0;
 }
