@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main () {
+	char line[255];
+	FILE *fpointer = fopen("employees.txt", "r" ); //w  overwrite , a edit
+	
+	fgets(line, 255, fpointer); //inside of the bracket = where to save, filesize, fpointer
+								//Every line shows one line in the txt file.
+	
+	printf("%s",line);
+	
+	
+	fclose(fpointer);
+	return 0;
+	
+}
