@@ -1,0 +1,14 @@
+
+//Dereferencing a pointer
+#include <stdio.h>
+#include <stdlib.h>
+
+int main () {
+	int age = 29;
+	int *pAge = &age;
+	printf("%d", &age); //Writing a '*pAge' is deferencing a pointer = getting the actual value.
+	return 0;
+}
+
+//&age is to get the memory address (Referencing a pointer = getting the address of the memory)
+//*age is to get the actual value (Dereferencing)
