@@ -5,9 +5,9 @@ int main () {
 	
 	FILE *fpointer = fopen("employees.txt", "w" ); //w  overwrite , a edit
 	
-	fprintf(fpointer,"Jin, Salesman\nPam, Receptionist\nOscar, Accountant"); //write 
+	fprintf(fpointer,"Jin, Salesman\nPam, Receptionist\nOscar, Accountant"); //fprintf() : write context
 	
-	fclose(fpointer);
+	fclose(fpointer); 
 	return 0;
 	
 }
