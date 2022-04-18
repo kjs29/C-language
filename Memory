@@ -1,0 +1,21 @@
+//Memory
+//Random Access Memory
+#include <stdio.h>
+#include <stdlib.h>
+
+int main () {
+	int age = 30; //Computer will store this 30 in somewhere in RAM physically
+	double gpa = 3.4; //Computer will store this 3.4 in somewhere in RAM physically
+	char grade = 'A'; //Computer will store this 'A' in somewhere in RAM physically
+	
+	//Now where does age get stored?
+	//How about gpa, and grade's addresses?
+	
+	printf("age : %p\ngpa: %p\ngrade : %p\n", &age,&gpa,&grade); //%p means pointer
+	
+	
+	
+	
+	
+	return 0;
+}
