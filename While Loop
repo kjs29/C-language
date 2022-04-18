@@ -10,3 +10,35 @@ int main () {
 	}
 	return 0;
 }
+
+
+---
+
+#include<stdio.h>
+#include <stdlib.h>
+
+int main () {
+	int age;
+	printf("Enter your age: ");
+	scanf("%d",&age);
+	while (age<19) {
+		printf("You have to go to school, you are %d\n",age);
+		age ++;
+	}
+	printf("Now you are 19, choose your path");
+	return 0;
+}
+---
+
+//Do while Loop
+#include<stdio.h>
+#include<stdlib.h>
+
+int main () {
+	int age = 6;
+	do { //there is no parenthesis
+		printf("%d",age);
+		age++;
+	} while (age<=5);
+	return 0;
+}
