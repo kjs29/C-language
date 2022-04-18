@@ -48,3 +48,30 @@ int main() {
 	
 	return 0;
 }
+
+---
+//I tried to make my own game.
+#include <stdio.h>
+#incldue <stdlib.h>
+
+int main () {
+	int age;
+	int guess = 5;
+	int guessCount = 0;
+	
+	while (age!=guess&&guessCount<4) {
+		printf("Enter your number : ");
+		scanf("%d",&age);
+		guessCount++;
+		printf("Wrong guess.\nGuessCount = %d\n",guessCount);
+		if (guessCount==3) {
+			printf("Next is final Guess.\n");
+		}
+	}
+	if (guessCount>=4) {
+		printf("You lost");
+	} else {
+		printf("You win!");
+	}
+	return 0 ;
+}
