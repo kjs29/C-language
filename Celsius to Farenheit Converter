@@ -5,20 +5,20 @@
 int main() {
 	double c;
 	double f;
-	int a = 1;
+	int a = 0;
 	char corf;
 	char b;
 	
-	while (a) {
+	while (a==0) {
 
 		printf("Would you like to convert to Celsius or Farenheit?\nType (C or F) : ");
 		scanf(" %c",&corf);
 		
-		if (corf == 'c'||corf =='C') {
+		if (corf == 'f'||corf =='F') {
 			printf("Enter your C degree: ");
 			scanf(" %Lf",&c);
 			printf("%Lf C is equal to %Lf Farenheit\n",c,(c*9/5)+32);
-		} 	else if (corf == 'f'||corf == 'F') {
+		} 	else if (corf == 'c'||corf == 'C') {
 			printf("Enter your F degree: ");
 			scanf(" %Lf", &f);
 			printf("%Lf F is equal to %Lf Celcius\n",f,((f-32)*5/9));
