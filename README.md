@@ -6,6 +6,7 @@
 # https://youtu.be/V_oM9ePJyP8 entitled "Things we must know before learning C language" in Korean.
 # https://youtu.be/KJgsSFOSQv0 C programming Tutorial for Beginners
 # https://www.freecodecamp.org/learn freecodecamp.org
+# https://modoocode.com/9 modoocode.com (one engineer's blog in Korean)
 # https://www.guru99.com/c-programming-tutorial.html guru99.com
 
 In the video he explains why they use base 2 numerical system(binary numerical system). = simply because they use electricity. 
