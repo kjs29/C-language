@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main() {
+	for (int i = 1; i <= 100; i++) {
+		
+		if (i % 2 != 0)
+		continue; //whatever below 'continue' does not run inside of the 'for' loop
+		          //In this case any number that does NOT have remainder of 0 from dividing the number by 2 will not proceed to run line 11.
+		printf("%d\n",i);
+	}
+}
