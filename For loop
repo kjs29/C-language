@@ -14,6 +14,19 @@ Order
 3. Statements
 4. Incrementation or Decrementation
 5. After one cycle, we will check the condition.( We won't go to initialization again! )
+
+---example
+#include <stdio.h>
+
+int main () {
+	int i;
+	for (i=1;i<=5;i++) {				//from the second cycle we don't go to first initialization. Value of 'i' = 2 already.
+		printf("Good morning\n");		//instead we go to the condition(i<=5) again to check if it is true, if it's true, we will go to statement.
+	}
+	return 0 ;
+}
+
+
 ---example
 #include <stdio.h>
 
