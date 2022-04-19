@@ -7,7 +7,8 @@ int main() {
 	double f;
 	int a = 0;
 	char corf;
-	char b;
+	char b; //This character b is just for the 29th,30th lines. And since users probably want to use userfriendly program, they will put y(Y), or n(N).
+		//I had to set another variable 'b' to associate with 'a' which tells the while loop to either continue or not.
 	
 	while (a==0) {
 
