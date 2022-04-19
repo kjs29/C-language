@@ -13,7 +13,7 @@ Order
 2. Condition
 3. Statements
 4. Incrementation or Decrementation
-
+5. After one cycle, we will check the condition.( We won't go to initialization again! )
 ---example
 #include <stdio.h>
 
