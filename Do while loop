@@ -1,0 +1,41 @@
+//How to use do while loop
+//syntax of do while loop is as follows
+
+do {
+  statements
+} while (expression);
+
+it is the same loop as while except that 'do while' loop does at least one execution.
+
+//The difference between 'do while' loop and 'while' loop is that (expression) for 'do while' loop comes at the end.
+
+---example
+#include <stdio.h>
+
+int main () {
+	int a = 1;
+	
+	do {
+		a++;
+		printf("%d,",a);
+		a=a*2;
+		printf("%d\n",a);
+	} while (a<20);
+	return 0;
+}
+
+---example
+#include <stdio.h>
+
+int main () {
+	int a = 2;
+	
+	do {
+		printf("%d",a*2);             //a is still 2 but it prints 4 because it tells to print a*2 = 2*2 = 4 , a is not 4 now.
+		a++;                          //a is now 3
+		printf("%d\n",a);
+	} while (a<20);
+	return 0;
+}
+
+
