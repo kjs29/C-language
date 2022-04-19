@@ -1,0 +1,52 @@
+#include <stdio.h>
+#include <stdlib.h>
+//Turn Celsius into Farenheit or vice versa
+
+int main() {
+	double c;
+	double f;
+	int a = 0;
+	char b;
+	char corf;
+	
+	
+	printf("Would you like to convert to Celsius or Farenheit?\nType (C or F) : ");
+	scanf(" %c",&corf);
+	
+	while (a==0) {
+		
+		if (corf == 'c'||corf =='C') {
+			printf("Enter your C degree: ");
+			scanf("%Lf",&c);
+			printf("%Lf C is equal to %Lf Farenheit\n",c,(c*9/5)+32);
+			
+		} 	else if (corf == 'f'||corf == 'F') {
+			printf("Enter your F degree: ");
+			scanf("%Lf", &f);
+			printf("%Lf F is equal to %Lf Celcius\n",f,((f-32)*5/9));
+			
+		}
+		
+	
+	printf("Thank you! Do you want to convert again?\nType (Y/N) : ");
+	
+	scanf(" %c",&b);
+	
+	if (b=='n'||b=='N') {
+		break;
+	}
+	
+	
+	printf("Would you like to convert to Celsius or Farenheit?\nType (C or F) : ");
+	scanf(" %c",&corf);
+	
+	//printf("%d\n",a);
+	
+	//scanf("%c",b);
+	
+		/*if (b=='n'||b=='N') {
+			a++;
+		} */
+	}
+	return 0;
+}
