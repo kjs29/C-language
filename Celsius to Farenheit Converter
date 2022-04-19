@@ -18,10 +18,12 @@ int main() {
 			printf("Enter your C degree: ");
 			scanf(" %Lf",&c);
 			printf("%Lf C is equal to %Lf Farenheit\n",c,(c*9/5)+32);
+			a++;
 		} 	else if (corf == 'c'||corf == 'C') {
 			printf("Enter your F degree: ");
 			scanf(" %Lf", &f);
 			printf("%Lf F is equal to %Lf Celcius\n",f,((f-32)*5/9));
+			a++;
 		}	
 		printf("Thank you!");
 		printf("Would you like to continue to convert?\nType (Y / N) : ");
