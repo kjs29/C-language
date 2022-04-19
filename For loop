@@ -8,6 +8,12 @@ for (initial value; condition; incrementation or decrementation) {
 //the condition is a boolean expression that tests and compares the counter to a fixed value  after each iteration, stopping the for loop when false is returned.
 //https://www.guru99.com/c-loop-statement.html#:~:text=In%20an%20entry%20control%20loop,as%20a%20post%2Dchecking%20loop.
 
+Order
+1. Initialization
+2. Condition
+3. Statements
+4. Incrementation or Decrementation
+
 ---example
 #include <stdio.h>
 
