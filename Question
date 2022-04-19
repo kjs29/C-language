@@ -1,0 +1,31 @@
+Question : Show numbers from 1 to input number
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+#include <stdio.h>
+
+
+int main () {
+	int input;
+	int a = 1;
+	
+	printf("enter your number : ");
+	scanf("%d",&input);
+	
+	while (a <= input) {
+		printf("%d",a);
+		a++;	
+	}
+}
