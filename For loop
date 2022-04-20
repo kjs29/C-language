@@ -6,7 +6,10 @@ for (initial value; condition; incrementation or decrementation) {
 
 //the initial value of the for loop is performed only once
 //the condition is a boolean expression that tests and compares the counter to a fixed value  after each iteration, stopping the for loop when false is returned.
-//https://www.guru99.com/c-loop-statement.html#:~:text=In%20an%20entry%20control%20loop,as%20a%20post%2Dchecking%20loop.
+//https://www.guru99.com/c-loop-statement.html#:~:text=In%20an%20entry%20control%20loop,as%20a%20post%2Dchecking%20loop
+
+//If ever confused about for loop, watch this video https://youtu.be/l6HzdW65c4I
+
 
 Order
 1. Initialization
