@@ -1,0 +1,23 @@
+General Syntax for declaring a variable as a string.
+char variableName [size];
+
+
+Initialization of Strings
+char variableName [50] = "Value is in here";
+
+---
+#include<stdio.h>
+
+int main () {
+  char book [20];
+  int price;
+  printf("1. What is the name of the book? : \n2. How much do you want to sell this for? : \n");
+  scanf("%s %d",book,&price);               //for the scanf() to read we don't need to use & to access the variable address.
+  printf("Name : %s\nPrice : %d",book,price);
+  return 0;
+}
+
+//The problem of scanf() is that it doesn't read the entire strings if it contains whitespace.
+//We can safely use fgets(book, sizeof bookname, stdin); to replace scanf().
+
+.......but it has newline at the end of the string.
